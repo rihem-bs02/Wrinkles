@@ -3,14 +3,14 @@
 This repository contains a high-performance semantic segmentation pipeline using a **U-Net architecture** with a **ResNet34 encoder**, specifically trained to identify **facial wrinkles** in high-resolution images. The model achieves **≈98% pixel-level accuracy**, demonstrating state-of-the-art performance in wrinkle detection for cosmetic and dermatological applications.
 
 ## 🚀 Highlights
+- 🎯 **Task**: Binary semantic segmentation of wrinkles in facial images  
+- 🧠 **Model**: U-Net with ResNet34 backbone (pretrained on ImageNet)  
+- 💻 **Framework**: PyTorch + segmentation_models.pytorch  
+- 🎨 **Output**: Transparent overlays highlighting wrinkle regions  
+- 📊 **Accuracy**: ~98% pixel accuracy (val set)  
+- ⚡ **Inference**: Optimized for fast CPU & GPU performance  
+- 🌍 **Live Demo**: [Try it on Hugging Face Spaces](https://huggingface.co/spaces/RihemXX/wrinkle-segmentation-unet)
 
-- ⚙️ **Model Architecture**: U-Net with ResNet34 encoder from [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch)
-- 🎯 **High Accuracy**: Achieves ≈98% pixel-wise accuracy on the validation dataset
-- 🎨 **Visual Overlay**: Predicted wrinkle masks are blended over input images
-- 💡 **Lightweight Inference**: Optimized for inference on both CPU and GPU (CUDA-compatible)
-- 🤖 **Deep Learning Framework**: Built using PyTorch
-- 🌍 **Live Demo**: [Try it on Hugging Face Spaces](https://huggingface.co/spaces/YOUR_USERNAME/wrinkle-segmentation-demo)
-- 📈 **Training Done on**: Google Colab Pro+ with Tesla T4 GPU
 
 ---
 
@@ -18,12 +18,12 @@ This repository contains a high-performance semantic segmentation pipeline using
 
 We used a curated dataset of facial images with manually annotated wrinkle regions.
 
-- 📂 **Download Dataset**: [Wrinkle Segmentation Dataset](https://example.com/dataset-link) *(placeholder, replace with actual dataset URL)*
+- 📂 **Download Dataset**: [Wrinkle Segmentation Dataset](https://github.com/labhai/ffhq-wrinkle-dataset) *(placeholder, replace with actual dataset URL)*
 
 Each image includes:
 - RGB facial images
 - Binary mask annotations indicating wrinkle regions
-
+![input](https://huggingface.co/spaces/RihemXX/Acnes/resolve/main/images/image.png)
 ---
 
 ## 🧠 Model Overview
@@ -45,7 +45,8 @@ The model uses the encoder-decoder design:
 ## 📊 Training Performance
 
 <img src="https://raw.githubusercontent.com/YOUR_USERNAME/wrinkle-segmentation/main/assets/training_plot.png" width="600"/>
-
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/wrinkle-segmentation/main/assets/training_plot.png" width="600"/>
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/wrinkle-segmentation/main/assets/training_plot.png" width="600"/>
 ---
 
 ## 🖼️ Example Inference Output
@@ -57,13 +58,6 @@ The model uses the encoder-decoder design:
   <img src="assets/pred_mask.jpg" width="250"/>
   <img src="assets/overlay_output.jpg" width="250"/>
 </p>
-
----
-
-## 🧪 Try It Yourself
-
-**Google Colab Inference Notebook**:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/wrinkle-segmentation/blob/main/inference.ipynb)
 
 ---
 
