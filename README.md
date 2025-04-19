@@ -23,7 +23,7 @@ We used a curated dataset of facial images with manually annotated wrinkle regio
 Each image includes:
 - RGB facial images
 - Binary mask annotations indicating wrinkle regions
-![input](https://huggingface.co/spaces/RihemXX/Acnes/resolve/main/images/image.png)
+![input](https://github.com/labhai/ffhq-wrinkle-dataset/blob/main/overview.png)
 ---
 
 ## 🧠 Model Overview
@@ -44,9 +44,8 @@ The model uses the encoder-decoder design:
 
 ## 📊 Training Performance
 
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/wrinkle-segmentation/main/assets/training_plot.png" width="600"/>
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/wrinkle-segmentation/main/assets/training_plot.png" width="600"/>
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/wrinkle-segmentation/main/assets/training_plot.png" width="600"/>
+<img src="Assets/ouput(1).jpg" width="600"/>
+<img src="Assets/ouput(2).jpgg" width="600"/>
 ---
 
 ## 🖼️ Example Inference Output
@@ -54,9 +53,8 @@ The model uses the encoder-decoder design:
 ### Input Image → Predicted Mask → Overlay
 
 <p float="left">
-  <img src="assets/padded_image.jpg" width="250"/>
-  <img src="assets/pred_mask.jpg" width="250"/>
-  <img src="assets/overlay_output.jpg" width="250"/>
+  <img src="Assets/1.jpg" width="250"/>
+  <img src="assets/2(1).jpg" width="250"/>
 </p>
 
 ---
