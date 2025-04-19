@@ -18,7 +18,7 @@ This repository contains a high-performance semantic segmentation pipeline using
 
 We used a curated dataset of facial images with manually annotated wrinkle regions.
 
-- 📂 **Download Dataset**: [Wrinkle Segmentation Dataset](https://github.com/labhai/ffhq-wrinkle-dataset) *(placeholder, replace with actual dataset URL)*
+- 📂 **Download Dataset**: [Wrinkle Segmentation Dataset](https://github.com/labhai/ffhq-wrinkle-dataset)
 
 Each image includes:
 - RGB facial images
