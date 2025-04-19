@@ -53,8 +53,8 @@ The model uses the encoder-decoder design:
 ### Input Image → Predicted Mask → Overlay
 
 <p float="left">
-  <img src="Assets/1.jpg" width="250"/>
-  <img src="assets/2(1).jpg" width="250"/>
+  <img src="[Assets/1.jpg](https://github.com/rihem-bs02/Wrinkles/blob/main/Assets/2%20(1).jpg)" width="250"/>
+  <img src="https://github.com/rihem-bs02/Wrinkles/blob/main/Assets/1.jpg" width="600"/>
 </p>
 
 ---
