@@ -50,7 +50,7 @@ The model uses the encoder-decoder design:
 
 ## 🖼Example Inference Output
 
-### Input Image → Predicted Mask → Overlay
+### Input Image → Predicted Mask 
 
 <p float="left">
   <img src="https://github.com/rihem-bs02/Wrinkles/blob/main/Assets/2%20(1).jpg" width="800"/>
