@@ -44,8 +44,8 @@ The model uses the encoder-decoder design:
 
 ## 📊 Training Performance
 
-<img src="Assets/ouput(1).jpg" width="600"/>
-<img src="Assets/ouput(2).jpgg" width="600"/>
+<img src="https://github.com/rihem-bs02/Wrinkles/blob/main/Assets/output%20(1).png" width="600"/>
+<img src="https://github.com/rihem-bs02/Wrinkles/blob/main/Assets/output%20(2).png" width="600"/>
 ---
 
 ## 🖼️ Example Inference Output
@@ -53,7 +53,7 @@ The model uses the encoder-decoder design:
 ### Input Image → Predicted Mask → Overlay
 
 <p float="left">
-  <img src="[Assets/1.jpg](https://github.com/rihem-bs02/Wrinkles/blob/main/Assets/2%20(1).jpg)" width="250"/>
+  <img src="https://github.com/rihem-bs02/Wrinkles/blob/main/Assets/2%20(1).jpg" width="600"/>
   <img src="https://github.com/rihem-bs02/Wrinkles/blob/main/Assets/1.jpg" width="600"/>
 </p>
 
