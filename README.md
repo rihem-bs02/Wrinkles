@@ -1,8 +1,8 @@
-# 🧠 UNet with ResNet34 Backbone for Wrinkle Segmentation
+# UNet with ResNet34 Backbone for Wrinkle Segmentation
 
 This repository contains a high-performance semantic segmentation pipeline using a **U-Net architecture** with a **ResNet34 encoder**, specifically trained to identify **facial wrinkles** in high-resolution images. The model achieves **≈98% pixel-level accuracy**, demonstrating state-of-the-art performance in wrinkle detection for cosmetic and dermatological applications.
 
-## 🚀 Highlights
+##  Highlights
 - 🎯 **Task**: Binary semantic segmentation of wrinkles in facial images  
 - 🧠 **Model**: U-Net with ResNet34 backbone (pretrained on ImageNet)  
 - 💻 **Framework**: PyTorch + segmentation_models.pytorch  
@@ -14,7 +14,7 @@ This repository contains a high-performance semantic segmentation pipeline using
 
 ---
 
-## 🧬 Dataset
+## Dataset
 
 We used a curated dataset of facial images with manually annotated wrinkle regions.
 
@@ -26,7 +26,7 @@ Each image includes:
 ![input](https://github.com/labhai/ffhq-wrinkle-dataset/blob/main/overview.png)
 ---
 
-## 🧠 Model Overview
+## Model Overview
 
 The model uses the encoder-decoder design:
 
@@ -42,26 +42,19 @@ The model uses the encoder-decoder design:
 
 ---
 
-## 📊 Training Performance
+## Training Performance
 
 <img src="https://github.com/rihem-bs02/Wrinkles/blob/main/Assets/output%20(1).png" width="600"/>
 <img src="https://github.com/rihem-bs02/Wrinkles/blob/main/Assets/output%20(2).png" width="600"/>
 ---
 
-## 🖼️ Example Inference Output
+## 🖼Example Inference Output
 
 ### Input Image → Predicted Mask → Overlay
 
 <p float="left">
-  <img src="https://github.com/rihem-bs02/Wrinkles/blob/main/Assets/2%20(1).jpg" width="600"/>
+  <img src="https://github.com/rihem-bs02/Wrinkles/blob/main/Assets/2%20(1).jpg" width="800"/>
   <img src="https://github.com/rihem-bs02/Wrinkles/blob/main/Assets/1.jpg" width="600"/>
 </p>
 
 ---
-
-## 🧰 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/wrinkle-segmentation.git
-   cd wrinkle-segmentation
